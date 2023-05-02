@@ -58,14 +58,6 @@ public class CentroDistribuicao {
         return tAlcool2;
     }
 
-    public TIPOPOSTO getComum() {
-        return TIPOPOSTO.COMUM;
-    }
-
-    public TIPOPOSTO getEstrategico() {
-        return TIPOPOSTO.ESTRATEGICO;
-    }
-
     public int recebeAditivo(int qtdade) {
         if (qtdade <= 0) {
             return -1;

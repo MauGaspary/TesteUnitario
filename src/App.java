@@ -9,7 +9,7 @@ public class App {
         System.out.println(c.recebeGasolina(2001));
         System.out.println(c.getSituacao());
         System.out.println(c.gettGasolina());
-        int[] enc = (c.encomendaCombustivel(1000, c.getComum()));
+        int[] enc = (c.encomendaCombustivel(1000, CentroDistribuicao.TIPOPOSTO.COMUM));
         System.out.println(enc[0]);
         System.out.println(enc[1]);
         System.out.println(enc[2]);
